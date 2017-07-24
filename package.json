@@ -1,0 +1,12 @@
+{
+  "name": "webpack_iniciual",
+  "version": "1.0.0",
+  "description": "webpack inicial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hola test\"",
+    "dev":"webpack -p"
+  },
+  "author": "marcelo contreras",
+  "license": "MIT"
+}
