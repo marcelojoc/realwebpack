@@ -5,8 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"hola test\"",
-    "dev":"webpack -p"
+    "dev": "webpack ",
+    "prod": "webpack -p"
   },
   "author": "marcelo contreras",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.6.1"
+  }
 }
